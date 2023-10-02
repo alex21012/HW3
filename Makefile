@@ -81,7 +81,7 @@ test:
 gcov:
 	@gcov ceasar.o -o build -s src > /dev/null 2>&1
 	@echo Generated unit test coverage report for ceasar.c. See $(GCOV_REPORT)
-	
+
 clean:
 	rm -fr $(BLDD) $(BIND) $(TSTD).out $(AUXD)/*.o *.out $(OCLINT_REPORT) $(GCOV_REPORT) $(TEST_RESULTS)
 

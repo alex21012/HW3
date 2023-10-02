@@ -7,8 +7,8 @@
 #include <assert.h>
 #include "criterion/criterion.h"
 
-#include "../include/global.h" 
-
+#include "global.h"
+ 
 #define TEST_INPUT_DIR "tests.in"
 #define TEST_OUTPUT_DIR "tests.out"
 #define TEST_TIMEOUT 30 
