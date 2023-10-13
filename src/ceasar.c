@@ -1,5 +1,4 @@
 #include "global.h" 
-
 /**
  *  Feel free to use the functions that you made in strPtr.c
  */ 
